@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>José Lucena Morente</title>
+	<link rel="shortcut icon" href="imagenes/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/juego.css">
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui-1.12.1.custom/jquery-ui.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/master.js"></script>
+</head>
+<body>
+	<header>
+	</header>
+	<main>
+		<h2 id="ganador">Mastermind Juego (JQUERY)</h2>
+		<div id="resultado">
+			<div>
+				<button class="option" value="w"></button>
+				<button class="option" value="w"></button>
+				<button class="option" value="w"></button>
+				<button class="option" value="w"></button>
+				<span class="space"></span>
+				<button class="result" value="v"></button>
+				<button class="result" value="v"></button>
+				<button class="result" value="v"></button>
+				<button class="result" value="v"></button>
+			</div><br/>
+		</div><br/><br/>
+		<div id="colores">
+			<h3>Elige uno de los colores</h3>
+			<button id="r" class="color" value="red"></button>
+			<button id="w" class="color" value="white"></button>
+			<button id="b" class="color" value="black"></button>
+			<button id="a" class="color" value="yellow"></button>
+			<button id="o" class="color" value="orange"></button>
+			<button id="br" class="color" value="brown"></button>
+			<button id="bl" class="color" value="blue"></button>
+			<button id="g" class="color" value="green"></button>
+		</div><br/>
+		<div id="boton">
+			<button id="comprobar"><img id="img" src="imagenes/check.png"></button>
+		</div>
+	</main>
+	<div id="dialogo" title="Has Ganado Campeón">
+		<button id="reiniciar"><img src="imagenes/restart.png"></button>
+		<a href="index.html"><img src="imagenes/salir.png" id="salir"></a>
+	</div>
+</body>
+</html>

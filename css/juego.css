@@ -1,0 +1,98 @@
+html{
+	margin: 0;
+	padding: 0;
+	background-color: #33FFEB;
+}
+main{
+	width: 500px;
+	margin: 0 auto;
+	padding: 50px;
+	background-color: #FFC433;
+	border-radius: 5rem;
+}
+
+main button{
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+h3{
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+}
+/*Colores*/
+
+main #colores{
+	width: 500px;
+}
+main #resultado{
+	height: 250px;
+	overflow-y: scroll;
+}
+/*Colores Resultado*/
+main #resultado {
+	display: flex;
+	flex-direction: column-reverse;
+}
+main #resultado button{
+	background: grey;
+	transition: all 0.8s;
+}
+ main #resultado .result{
+ 	background-color: orange;
+ 	width: 25px;
+ 	height: 25px;
+ }
+main #boton{
+	width: 500px;
+	display: flex;
+	justify-content: center;
+}
+#dialogo {
+	display: grid;
+	grid-template-columns: repeat(2,auto);
+}
+#reiniciar {
+ 	background: transparent;
+ 	border: 0;
+	cursor: pointer;
+}
+#reiniciar img{
+	width: 50px;
+	height: 50px;
+}
+main #boton #comprobar{
+ 	*border-radius: 8px;
+ 	width: 50px;
+ 	*box-shadow: 2px 3px 5px black;
+ 	font-size: 20px;
+ 	color: black;
+ 	background: transparent;
+	border: 0;
+	opacity: 0.5;
+ }
+ #comprobar img {
+ 	width: 50px;
+ }
+ .space{
+ 	width: 150px;
+ 	padding-left: 30px;
+ }
+
+ #ganador{
+ 	text-align: center;
+ 	padding: 0;
+ 	margin: 0;
+ }
+
+#salir {
+	width: 50px;
+	height: 50px;
+	display: none;
+	margin: 10% auto;
+}
